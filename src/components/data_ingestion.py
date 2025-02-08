@@ -8,6 +8,8 @@ from dataclasses import dataclass
 
 from data_transformation import DataTransformation
 from data_transformation import DataTransformationConfig
+from model_trainer import ModelTrainer
+from model_trainer import ModelTrainerConfig
 
 
 @dataclass
