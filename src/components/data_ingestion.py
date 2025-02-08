@@ -1,6 +1,6 @@
 import os
 import sys 
-# from src.exception import CustomException
+from exception import CustomException
 from logger import logging
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -56,7 +56,7 @@ if __name__ == '__main__':
     train_data,test_data,raw_data = data_ingestion.initiate_data_ingestion()
 
     data_transformation = DataTransformation()
-    train_arr, test_arr,_ = data_transformation.initiate_data_transformer(train_data,test_data,raw_data)
+    train_arr, test_arr,_ = data_transformation.initiate_data_transformer(train_data,test_data)
     
     modeltrainer = ModelTrainer()
     modeltrainer.initiate_model_trainer(train_arr,test_arr)      
