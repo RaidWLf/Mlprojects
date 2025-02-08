@@ -1,0 +1,13 @@
+[ 2025-02-08 18:25:04,962 ] 26 root - INFO - Enter the data ingestion method or component 
+[ 2025-02-08 18:25:04,966 ] 29 root - INFO - Exported and read the dataset as dataframe. 
+[ 2025-02-08 18:25:04,969 ] 36 root - INFO - Train test split initiate. 
+[ 2025-02-08 18:25:04,972 ] 42 root - INFO - data ingestion completed. 
+[ 2025-02-08 18:25:04,973 ] 26 root - INFO - Enter the data ingestion method or component 
+[ 2025-02-08 18:25:04,975 ] 29 root - INFO - Exported and read the dataset as dataframe. 
+[ 2025-02-08 18:25:04,977 ] 36 root - INFO - Train test split initiate. 
+[ 2025-02-08 18:25:04,981 ] 42 root - INFO - data ingestion completed. 
+[ 2025-02-08 18:25:04,983 ] 69 root - INFO - read train and test data successful. 
+[ 2025-02-08 18:25:04,983 ] 71 root - INFO - Obtaining preprocessor object 
+[ 2025-02-08 18:25:04,983 ] 44 root - INFO - numerical and categorical pipeline created successfully. 
+[ 2025-02-08 18:25:04,983 ] 54 root - INFO - Data Transformation object created successfully 
+[ 2025-02-08 18:25:04,984 ] 83 root - INFO - fitting the preprocessor object on train data and test data 
