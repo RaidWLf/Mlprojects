@@ -44,24 +44,22 @@ class DataIngestion:
             return(
                 self.ingestion_config.train_data_path,
                 self.ingestion_config.test_data_path,
-                self.ingestion_config.raw_data_path
+                #self.ingestion_config.raw_data_path
             )
         except Exception as e:
             raise CustomException(e,sys)
         
 
 if __name__ == '__main__':
-    data_ingestion = DataIngestion()
-    # print(data_ingestion.initiate_data_ingestion())
-    train_data,test_data,raw_data = data_ingestion.initiate_data_ingestion()
+    obj = DataIngestion()
+    print(obj.initiate_data_ingestion())
+    train_data,test_data = obj.initiate_data_ingestion()
 
     data_transformation = DataTransformation()
-    train_arr, test_arr,_ = data_transformation.initiate_data_transformer(train_data,test_data)
-    
+    train_arr, test_arr = data_transformation.initiate_data_transformer(train_data,test_data)
+"""    
     modeltrainer = ModelTrainer()
     modeltrainer.initiate_model_trainer(train_arr,test_arr)      
     print(modeltrainer.initiate_model_trainer(train_arr,test_arr))
 
-
-
-    
+""" 
