@@ -26,18 +26,18 @@ class DataTransformation:
 
         try:
             numerical_columns = ['writing score','reading score']
-            categorical_columns = ['gender','race_ethinicity','parental level of education','lunch','test preparation course']
+            categorical_columns = ['gender','race/ethnicity','parental level of education','lunch','test preparation course']
             num_pipeline = Pipeline(
                 steps=[
                     ('imputer', SimpleImputer(strategy='median')),
-                    ('std_scaler', StandardScaler())
+                    ('std_scaler', StandardScaler(with_mean=False))
                 ]
             )
             cat_pipeline = Pipeline(
                 steps=[
                     ('imputer', SimpleImputer(strategy='most_frequent')),
                     ('onehot', OneHotEncoder()),
-                    ('scaling', StandardScaler())
+                    ('scaling', StandardScaler(with_mean=False))
                 ]
             )
             
