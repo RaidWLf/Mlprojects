@@ -30,9 +30,6 @@ def evaluate_models(X_train, y_train, X_test, y_test, models, params):
         report = {}
         for i in models:
             model= models[i]
-
-        # for j in params[i]:
-        #     param = params[i][j]
             param = params[i]
 
 
