@@ -2,3 +2,4 @@
 [ 2025-02-14 15:54:57,427 ] 97 werkzeug - INFO -  * Debugger PIN: 109-654-617 
 [ 2025-02-14 15:55:09,782 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Feb/2025 15:55:09] "[33mGET / HTTP/1.1[0m" 404 - 
 [ 2025-02-14 15:55:10,462 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Feb/2025 15:55:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - 
+[ 2025-02-14 16:05:42,869 ] 97 werkzeug - INFO -  * Detected change in '/workspaces/Mlprojects/app.py', reloading 

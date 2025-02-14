@@ -4,3 +4,5 @@
  * Running on http://10.0.1.126:5000 
 [ 2025-02-14 15:54:56,630 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m 
 [ 2025-02-14 15:54:56,631 ] 97 werkzeug - INFO -  * Restarting with stat 
+[ 2025-02-14 16:05:42,993 ] 97 werkzeug - INFO -  * Restarting with stat 
+[ 2025-02-14 16:05:51,891 ] 97 werkzeug - INFO -  * Restarting with stat 

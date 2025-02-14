@@ -1,0 +1,4 @@
+[ 2025-02-14 16:14:50,696 ] 97 werkzeug - WARNING -  * Debugger is active! 
+[ 2025-02-14 16:14:50,696 ] 97 werkzeug - INFO -  * Debugger PIN: 109-654-617 
+[ 2025-02-14 16:14:53,460 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Feb/2025 16:14:53] "GET / HTTP/1.1" 200 - 
+[ 2025-02-14 16:15:14,282 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Feb/2025 16:15:14] "[33mGET /home HTTP/1.1[0m" 404 - 
