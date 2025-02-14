@@ -11,3 +11,4 @@
 [ 2025-02-14 16:19:18,835 ] 97 werkzeug - INFO -  * Debugger pin code: 109-654-617 
 [ 2025-02-14 16:19:18,836 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Feb/2025 16:19:18] "GET /predictdata?__debugger__=yes&cmd=printpin&s=Q0aAuXY0P2mw8K3PUBXr HTTP/1.1" 200 - 
 [ 2025-02-14 16:19:24,760 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Feb/2025 16:19:24] "GET /predictdata?__debugger__=yes&cmd=pinauth&pin=&s=Q0aAuXY0P2mw8K3PUBXr HTTP/1.1" 200 - 
+[ 2025-02-14 16:23:33,162 ] 97 werkzeug - INFO -  * Detected change in '/workspaces/Mlprojects/src/pipeline/predict_pipeline.py', reloading 
