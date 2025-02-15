@@ -1,4 +1,4 @@
-Metadata-Version: 2.2
+Metadata-Version: 2.1
 Name: Mlprojects
 Version: 0.0.1
 Author: Sambhavi
@@ -12,6 +12,3 @@ Requires-Dist: catboost
 Requires-Dist: xgboost
 Requires-Dist: dill
 Requires-Dist: Flask
-Dynamic: author
-Dynamic: author-email
-Dynamic: requires-dist

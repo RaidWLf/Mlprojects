@@ -42,6 +42,7 @@ class CustomData:
         self.test_preparation_course = test_preparation_course
         self.reading_score = reading_score
         self.writing_score = writing_score
+    
 
     def get_data_as_data_frame(self):
         try:
