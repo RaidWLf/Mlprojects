@@ -22,7 +22,7 @@ def predict_datapoint():
     else:
         data = CustomData(
             gender = request.form.get('gender'),
-            race_ethnicity = request.form.get('race_ethnicity'),
+            race_ethnicity = request.form.get('race/ethnicity'),
             parental_level_of_education = request.form.get('parental_level_of_education'),  
             lunch = request.form.get('lunch'),
             test_preparation_course = request.form.get('test_preparation_course'),
@@ -33,10 +33,10 @@ def predict_datapoint():
         print(pred_df)
 
         predict_pipeline = PredictPipeline()
-        preds = predict_pipeline.predict(pred_df)
 
         predict_pipeline = PredictPipeline()
         results = predict_pipeline.predict(pred_df)
+        print(results)
         return render_template('results.html', results=results[0])
 
 if __name__ == '__main__':
