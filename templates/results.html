@@ -1,75 +1,91 @@
 <!DOCTYPE html>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f4;
-        color: #333;
-        line-height: 1.6;
-    }
-
-    header {
-        background: #5072A7;
-        color: #fff;
-        padding-top: 30px;
-        min-height: 70px;
-        border-bottom: 1px solid rgb(235, 233, 233);
-    }
-
-    header h1 {
-        text-align: center;
-    }
-
-    main {
-        padding: 20px;
-    }
-
-    #results-section {
-        background: #fff;
-        padding: 20px;
-        margin-bottom: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    #results-container {
-        margin-top: 10px;
-        padding: 10px;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-    }
-
-    footer {
-        text-align: center;
-        padding: 10px;
-        background: #5072A7;
-        color: #fff;
-        border-top: 1px solid rgb(235, 233, 233);
-    }
-</style>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Results</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Results - Exam Score Analysis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f0e1;
+            color: #4a3f35;
+        }
+
+        header {
+            background-color: #8b5e3c;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 1px;
+        }
+
+        main {
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #results-section {
+            background-color: #fff7ec;
+            padding: 30px;
+            border-radius: 15px;
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+        }
+
+        #results-section h2 {
+            text-align: center;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #6f4e37;
+        }
+
+        #results-container {
+            background-color: #f1e2c6;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #d4b996;
+            text-align: center;
+            font-size: 1.5em;
+            color: #5c4433;
+        }
+
+        footer {
+            background-color: #8b5e3c;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Results</h1>
+        <h1>Exam Score Prediction</h1>
     </header>
     <main>
         <section id="results-section">
-            <h2>Analysis Results</h2>
+            <h2>Analysis Result</h2>
             <div id="results-container">
                 <p>The predicted score is: {{ results }}</p>
             </div>
         </section>
     </main>
     <footer>
-        <p>&copy; Exam Score Analysis </p>
+        <p>&copy; 2025 Exam Score Analysis. All rights reserved.</p>
     </footer>
-    <script src="scripts.js"></script>
 </body>
 </html>
