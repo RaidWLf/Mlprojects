@@ -47,13 +47,14 @@ class ModelTrainer:
                 "Ada Boost Classifier": AdaBoostRegressor(),
                 "Gradient Boosting": GradientBoostingRegressor(),
                 "K-Neighbors Classifier": KNeighborsRegressor(),
-                "XGBClassifier": XGBRegressor(),
+                "XGBRegressor": XGBRegressor(),
                 "Cat Boosting Classifier": CatBoostClassifier(verbose=False),
                 "Linear Regression": LinearRegression()
             }
 
             params = { 
                 "Random Forest":{
+                  
                     'n_estimators':[8,16,32,64,128,256]
                 
                 },
@@ -78,7 +79,7 @@ class ModelTrainer:
                     "learning_rate":[0.1,0.01,0.05,0.001],
                     "n_estimators":[8,16,32,64,128,256],
                 },
-                "CatBoosting Regresor":{
+                "Cat Boosting Classifier":{
                     'learning_rate':[0.01,0.05,0.1],
                     'depth':[6,8,10],
                     'iterations':[38,50,100],

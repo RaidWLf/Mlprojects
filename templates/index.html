@@ -1,33 +1,152 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Welcome!</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #333;
-            text-align: center;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exam Score Analysis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-color: #f5f0e6;
+      color: #4b2e2e;
+    }
+
+    header {
+      background-color: #8d6e63;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 2rem;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 40px;
+      background: url('https://cdn.pixabay.com/photo/2015/07/27/20/16/vintage-863838_1280.jpg') no-repeat center center/cover;
+      text-align: center;
+      color: #3e2723;
+    }
+
+    .hero-text {
+      background-color: rgba(255, 248, 220, 0.85);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .hero-text h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #5d4037;
+    }
+
+    .hero-text p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #6d4c41;
+    }
+
+    .hero-text .btn {
+      margin-top: 40px;
+      padding: 12px 24px;
+      font-size: 1rem;
+      background-color: #6d4c41;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      display: inline-block;
+    }
+
+    .hero-text .btn:hover {
+      background-color: #5d4037;
+    }
+
+    .features {
+      padding: 50px 40px;
+      display: flex;
+      justify-content: space-around;
+      background-color: #efebe9;
+    }
+
+    .feature {
+      background-color: #d7ccc8;
+      border-radius: 15px;
+      padding: 20px;
+      width: 30%;
+      text-align: center;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+
+    .feature img {
+      width: 80px;
+      margin-bottom: 15px;
+    }
+
+    .feature h3 {
+      color: #4e342e;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #8d6e63;
+      color: #fce4d6;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to the home page.</h1>
+  <header>
+    <h1>Exam Score Analysis</h1>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Unlock Insights into Student Performance</h2>
+      <p>Our Exam Score Analysis project uses machine learning to reveal patterns in exam performance based on multiple factors. Make data-driven decisions for better educational outcomes.</p>
+      <a class="btn" href="home.html">Predict Score</a>
     </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" alt="Student Icon">
+      <h3>Demographic Analysis</h3>
+      <p>Analyze scores based on gender, ethnicity, and parental education level.</p>
+    </div>
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/512/2734/2734780.png" alt="Graph Icon">
+      <h3>Score Trends</h3>
+      <p>Visualize performance trends and gain deep insights through graphs.</p>
+    </div>
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="AI Icon">
+      <h3>ML Predictions</h3>
+      <p>Predict student success using cutting-edge machine learning models.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Exam Score Analysis Project. Created by Sambhavi Sharma, Ambuj Kumar, and Kratika Sahu .</p>
+  </footer>
 </body>
 </html>
